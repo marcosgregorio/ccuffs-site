@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Press+Start+2P&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: arial,sans-serif;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a:hover{
+    opacity: 0.7;
+}
+.logo{
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 4px;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    font-family:arial;
+    background:#427A3B;
+    height:8vh;
+}
+.nav-list{
+    list-style:none;
+    display:flex;
+}
+.nav-list li{
+    letter-spacing:3px;
+    margin-left:32px;
+}
+#banner{
+    filter:blur(0.4rem);
+    background:#C7C7C7;
+    display: block;
+    height: 94vh;
+    width: 100%;
+    padding:0px;
+    margin:0px; 
+}
+.conteudo h1 {
+    position: absolute;
+    font-family:'Pacifico';
+    font-size:2.6rem;
+    text-shadow: 2px 3px 12px;
+    color:#fff;
+    top:10rem;
+    left:33rem;
+    animation:pisca_pisca 1.5s infinite;
+    
+}
+@keyframes pisca_pisca{
+    0%{color:#D60025;}
+    10%{color:#D60025;}
+    15%{color:lightgreen;}
+    25%{color:lightgreen;}
+    35%{color:white;}
+    45%{color:white;}
+    55%{color:#D60025;}
+    65%{color:#D60025;}
+    75%{color:lightgreen;}
+    85%{color:lightgreen;}
+    95%{color:#D60025;}
+    100%{color:#D60025;}
+
+}
+
+p{
+    display: inline-block;
+    
+
+}
