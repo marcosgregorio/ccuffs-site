@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Press+Start+2P&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap');
 
 *{
     margin: 0px;
     padding: 0px;
     font-family: arial,sans-serif;
+}
+body{
+    background:#C7C7C7;
 }
 a{
     color: #fff;
@@ -20,13 +23,14 @@ a:hover{
     font-size: 24px;
     letter-spacing: 4px;
 }
-nav{
+.nav{
     display:flex;
     justify-content: space-around;
     align-items:center;
     font-family:arial;
     background:#427A3B;
     height:8vh;
+    
 }
 .nav-list{
     list-style:none;
@@ -37,7 +41,7 @@ nav{
     margin-left:32px;
 }
 #banner{
-    filter:blur(0.4rem);
+    filter:blur(0.35rem);
     background:#C7C7C7;
     display: block;
     height: 94vh;
@@ -47,14 +51,20 @@ nav{
 }
 .conteudo h1 {
     position: absolute;
-    font-family:'Pacifico';
+   font-family:'Pacifico';          /* Texto de boa noite */
     font-size:2.6rem;
     text-shadow: 2px 3px 12px;
     color:#fff;
     top:10rem;
     left:33rem;
     animation:pisca_pisca 1.5s infinite;
-    
+}
+.conteudo h2{
+    position: absolute;
+    font-size: 28px;
+    top:18.5rem;
+    margin-left:40rem;
+    color:#fff;
 }
 @keyframes pisca_pisca{
     0%{color:#D60025;}
@@ -72,8 +82,56 @@ nav{
 
 }
 
-p{
-    display: inline-block;
+.conteudo img{
+    max-width: 10%;
+    position: absolute;
+    top:18rem;
+    margin-left:25rem;
+    border-radius:50%;
+    border:1px solid black;
+}
+.conteudo p{
+    position:absolute;
+    top:23rem;
+    margin-left:36rem;
+    color:#fff; 
+}
+.barra{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    font-family:arial;
+    background:#427A3B;
+    height:8vh;
+        
     
-
+}
+.nav-name{
+    text-align:center;
+    color:#fff;
+    font-size:40px;
+    text-shadow: 2px 3px 12px;
+    animation:pisca_pisca 1.5s infinite;
+}
+.bloco-notas{
+    max-width:33%;
+    
+    margin: 25px 0px 0px 20px;
+}
+.conteudo2 h2{
+    font-family:'Send Flowers';
+    position: absolute;
+    top:59.3rem;
+    margin-left: 4.8rem;
+    font-size: 35px;
+}
+.fluzao div{
+    display:grid;
+    grid-template-columns: 1fr 1fr;   
+}
+.escudo{
+    max-width:49%;
+    margin-left: 10rem;
+    top:10rem;
+    padding: 0px;
 }
