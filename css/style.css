@@ -10,6 +10,7 @@
 body{
     background:#C7C7C7;
 }
+
 a{
     color: #fff;
     text-decoration: none;
@@ -32,6 +33,7 @@ a:hover{
     height:8vh;
     
 }
+
 .nav-list{
     list-style:none;
     display:flex;
@@ -97,15 +99,15 @@ a:hover{
     color:#fff; 
 }
 .barra{
+    margin:3px 0px;
     display:flex;
     justify-content: space-around;
     align-items:center;
     font-family:arial;
     background:#427A3B;
     height:8vh;
-        
-    
 }
+
 .nav-name{
     text-align:center;
     color:#fff;
