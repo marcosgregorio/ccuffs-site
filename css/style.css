@@ -19,6 +19,7 @@ a{
 a:hover{
     opacity: 0.7;
 }
+
 .logo{
     text-transform: uppercase;
     font-size: 24px;
@@ -42,7 +43,7 @@ a:hover{
     letter-spacing:3px;
     margin-left:32px;
 }
-#banner{
+#videoflu1{
     filter:blur(0.35rem);
     background:#C7C7C7;
     display: block;             /* video de fundo*/
@@ -57,15 +58,15 @@ a:hover{
     font-size:2.6rem;
     text-shadow: 2px 3px 12px;
     color:#fff;
-    top:10rem;
-    left:33rem;
+    top:11rem;
+    left:42rem;
     animation:pisca_pisca 1.8s infinite;
 }
 .conteudo h2{
     position: absolute;
     font-size: 28px;
-    top:18.5rem;
-    margin-left:40rem;
+    top:20rem;
+    margin-left:42rem;
     color:rgb(230, 225, 225);
     text-shadow: black 1px 1px 3px;
 }
@@ -85,22 +86,27 @@ a:hover{
 
 }
 .conteudo img{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     position: absolute;
-    top:16rem;
-    margin-left:22rem;
+    top:19rem;
+    margin-left:24rem;
     border-radius:50%;
     border:1px solid rgb(81, 80, 80);
 }
 .conteudo p{
     position:absolute;
-    top:23rem;
-    margin-left:36rem;
+    top:25rem;
+    font-size: 22px;
+    margin-left:43rem;
     color:rgb(230, 225, 225);
-    text-shadow: black 1px 1px 3px;
+    text-shadow: black 2px 2px 3px;
+    background-color:rgba(192, 223, 193,0.3);
+    border-radius:10px 10px;
+    padding: 15px;
 }
 .barra{
+    filter:blur(0.6px);
     margin:3px 0px;
     display:flex;
     justify-content: space-around;
@@ -117,7 +123,7 @@ a:hover{
     text-shadow: 2px 3px 12px;
     animation:pisca_pisca 1.5s infinite;
 }
-#liberta {
+#videoflu2{
     filter:blur(0.35rem);
     background:#C7C7C7;
     height:100%;
