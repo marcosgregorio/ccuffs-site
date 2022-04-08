@@ -45,7 +45,7 @@ a:hover{
 #banner{
     filter:blur(0.35rem);
     background:#C7C7C7;
-    display: block;
+    display: block;             /* video de fundo*/
    
     width: 100%;
     padding:0px;
@@ -59,14 +59,15 @@ a:hover{
     color:#fff;
     top:10rem;
     left:33rem;
-    animation:pisca_pisca 1.5s infinite;
+    animation:pisca_pisca 1.8s infinite;
 }
 .conteudo h2{
     position: absolute;
     font-size: 28px;
     top:18.5rem;
     margin-left:40rem;
-    color:#fff;
+    color:rgb(230, 225, 225);
+    text-shadow: black 1px 1px 3px;
 }
 @keyframes pisca_pisca{
     0%{color:#D60025;}
@@ -83,21 +84,21 @@ a:hover{
     100%{color:#D60025;}
 
 }
-
 .conteudo img{
-    width: 210px;
-    height: 210px;
+    width: 200px;
+    height: 200px;
     position: absolute;
     top:16rem;
     margin-left:22rem;
     border-radius:50%;
-    border:1.5px solid rgb(81, 80, 80);
+    border:1px solid rgb(81, 80, 80);
 }
 .conteudo p{
     position:absolute;
     top:23rem;
     margin-left:36rem;
-    color:#fff; 
+    color:rgb(230, 225, 225);
+    text-shadow: black 1px 1px 3px;
 }
 .barra{
     margin:3px 0px;
@@ -119,9 +120,9 @@ a:hover{
 #liberta {
     filter:blur(0.35rem);
     background:#C7C7C7;
+    height:100%;
     width: 100%;
-    padding:0px;
-    margin:0px; 
+    margin:1px; 
     position:relative;
 
 }
@@ -129,35 +130,62 @@ a:hover{
     max-width:33%;
     position: absolute;
     margin: 25px 0px 0px 20px;
-    top:63rem;
+    top:80rem;
 
 }
 .conteudo2 h2{
     font-family:'Send Flowers';
     position: absolute;
     color:#427A3B;
-    top:68rem;
+    top:89rem;
     margin-left: 4.8rem;
     font-size: 35px;
 }
 .conteudo2 p {
-    font-family:'Send Flowers';
+    font-family:arial;
     position: absolute;
     color:#427A3B;
-    top:90rem;
+    top:114rem;
     margin-left: 4.8rem;
     font-size: 35px;
 }
 .fluzao div{
     display:grid;
     grid-template-columns: 1fr 1fr;   
+
 }
 .escudo{
     max-width:49%;
-    margin-left: 45rem;
+    margin-left: 55rem;
     position:absolute;
-    top:65rem;
+    top:80rem;
     padding: 0px;
     
 }
 
+.fundo img{
+    max-width: 100%;
+    display: block;
+}
+#galeria{
+    max-width: 800px;
+    margin: 0 auto;
+}
+#img-principal{
+    max-width:500px;
+    margin: 0 auto;
+}
+#galeria ul {
+    padding: 0px;
+    margin:0px;
+    list-style: none;
+    display:grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 9px;
+    margin-top: 10px;
+   
+}
+.fundo{
+    margin-top: 2px;
+    background:#427A3B;
+}

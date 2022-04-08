@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site do Marcola</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="script/script.js" defer></script>
 </head>
 <body>
     <div>
     <header>
         <nav class="nav">
             <a class="logo" href="/">Site do Marcola</a>
-            <ul class ="nav-list">
+            <ul id="#nav-principal"class ="nav-list">
                 <li> <a href ="/">Sobre-mim</a></li>
                 <li> <a href ="/">Fluzão</a></li>
                 <li> <a href ="/">Pets</a></li>
@@ -23,13 +24,18 @@
         <div>
             <video id="banner"autoPlay muted loop>
                 <source src="img/video/fluzao.mp4" type="video/mp4">
-        </div>        
-            </video>
+            </video>    
+            </div>        
+            
             <div class="conteudo">
                 <h1 class="tituloprincipal">Boa noite Geomar e Felipe!!!</h1>
                 <img src="img/marcola.jpeg" alt="minha foto">
-                <h2>Desenvolvedor do site</h2>
-                <p>lorem ipsum dolor sit amet lorem, consectetur adipis lorem, sed</p>
+                    <div>
+                    <h2>Desenvolvedor do site</h2>
+                    <p>Sou o Marcos, tenho 18 anos e atualmente faço Ciência da Computação na UFFS. <br>
+                        Sou natural do Rio de Janeiro e vim para Chapecó em busca de fazer meus estudos                         <!--Parte da Home -->
+                        <br> em outro lugar. Atualmente também trabalho na Fronteira-Tec (Empresa-Júnior da UFFS-Chapecó)</p>
+                    </div>
             </div>
     </main>
     <section id="fluzao">
@@ -50,8 +56,8 @@
            
             <a href="https://www.fluminense.com.br/site/"><img class="escudo" src="img/fluminense.png" alt="escudo do fluminense"></a>
         
-            <h2>Número de libertas do Fruzão:</h2>
-            <p>askdjskadsa</p>
+            <h2>Número de libertas do Fruzão:</h2>                                              <!-- Parte do Fruzão-->
+            <p>MAIOR TIME DO MUNDO,<br> SE PÁ MAIOR DO BRASIL.</p>
           
             
         </div>
@@ -64,9 +70,27 @@
                 </h1>
             </nav>
         </div>
+        <div class="fundo">
+            <div id="galeria">
+                <img id="img-principal" src="img/gloria.jpeg">
+                <ul>
+                    <li><img src="img/gloria.jpeg" alt="gloria"></li>
+                    <li><img src="img/gloria3.jpeg" alt="gloria3"></li>
+                    <li><img src="img/gloria4.jpeg" alt="gloria4"></li>
+                    <li><img src="img/jinx.jpeg" alt="jinx"></li>
+                    <li><img src="img/jinx2.jpeg" alt="jinx2"></li>                                             <!--Galeria de fts-->
+                    <li><img src="img/sol.jpeg" alt="sol"></li>
+                    <li><img src="img/sol2.jpeg" alt="sol2"></li>
+                    <li><img src="img/sol3.jpeg" alt="sol3"></li>
+                    <li><img src="img/sol4.jpeg" alt="sol4"></li>
+                    <li><img src="img/valesca.jpeg" alt="valesca"></li>
+                    <li><img src="img/valesca2.jpeg" alt="valesca2"></li>
+                    <li><img src="img/valesca3.jpeg" alt="valesca3"></li>
+                </ul>
+                
+            </div>
 
-    </section>
-    
-    
+        </div>
+     </section>
 </body>
 </html>
