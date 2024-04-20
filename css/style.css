@@ -200,6 +200,15 @@ a:hover{
     margin-top: 10px;
    
 }
+
+#galeria ul li :hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    cursor: pointer;
+    /*  horizontal, vertical, blur, spread*/
+    box-shadow: 0px 0px 10px 0px #000;
+}
+
 .fundo{
     margin-top: 2px;
     background:#427A3B;
