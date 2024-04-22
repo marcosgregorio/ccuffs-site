@@ -1,3 +1,9 @@
+const dataNascimento = new Date('2003-04-22');
+const dataAtual = new Date();
+const idade = dataAtual.getFullYear() - dataNascimento.getFullYear();
+
+document.querySelector('#idade').textContent = idade;
+
 const imagens = document.querySelectorAll('#galeria li img');
 
 function galeriaTrocar(event){
