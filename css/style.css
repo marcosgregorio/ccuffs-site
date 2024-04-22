@@ -2,203 +2,258 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap');
 
-*{
+* {
     margin: 0px;
     padding: 0px;
-    font-family: arial,sans-serif;
-}
-body{
-    background:#C7C7C7;
+    font-family: arial, sans-serif;
 }
 
-a{
+body {
+    background: #C7C7C7;
+}
+
+a {
     color: #fff;
     text-decoration: none;
     transition: 0.3s;
 }
-a:hover{
+
+a:hover {
     opacity: 0.7;
 }
 
-.logo{
+.logo {
     text-transform: uppercase;
     font-size: 24px;
     letter-spacing: 4px;
 }
-.nav{
-    display:flex;
+
+.nav {
+    display: flex;
     justify-content: space-around;
-    align-items:center;
-    font-family:arial;
-    background:#427A3B;
-    height:8vh;
-    
+    align-items: center;
+    font-family: arial;
+    background: #427A3B;
+    height: 8vh;
+
 }
 
-.nav-list{
-    list-style:none;
-    display:flex;
+.nav-list {
+    list-style: none;
+    display: flex;
 }
-.nav-list li{
-    letter-spacing:3px;
-    margin-left:32px;
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
 }
-#videoflu1{
-    filter:blur(0.35rem);
-    background:#C7C7C7;
-    display: block;             /* video de fundo*/
-   
+
+#videoflu1 {
+    filter: blur(0.35rem);
+    background: #C7C7C7;
+    display: block;
+    /* video de fundo*/
+
     width: 100%;
-    padding:0px;
-    margin:0px; 
+    padding: 0px;
+    margin: 0px;
 }
+
 .conteudo h1 {
     position: absolute;
-   font-family:'Pacifico';          /* Texto de boa noite */
-    font-size:2.6rem;
+    font-family: 'Pacifico';
+    /* Texto de boa noite */
+    font-size: 2.6rem;
     text-shadow: 2px 3px 12px;
-    color:#fff;
-    top:11rem;
-    left:42rem;
-    animation:pisca_pisca 1.8s infinite;
+    color: #fff;
+    top: 11rem;
+    left: 42rem;
+    animation: pisca_pisca 1.8s infinite;
 }
-.conteudo h2{
+
+.conteudo h2 {
     position: absolute;
     font-size: 28px;
-    top:20rem;
-    margin-left:42rem;
-    color:rgb(230, 225, 225);
+    top: 20rem;
+    margin-left: 42rem;
+    color: rgb(230, 225, 225);
     text-shadow: black 1px 1px 3px;
 }
-@keyframes pisca_pisca{
-    0%{color:#D60025;}
-    10%{color:#D60025;}
-    15%{color:lightgreen;}
-    25%{color:lightgreen;}
-    35%{color:white;}
-    45%{color:white;}
-    55%{color:#D60025;}
-    65%{color:#D60025;}
-    75%{color:lightgreen;}
-    85%{color:lightgreen;}
-    95%{color:#D60025;}
-    100%{color:#D60025;}
+
+@keyframes pisca_pisca {
+    0% {
+        color: #D60025;
+    }
+
+    10% {
+        color: #D60025;
+    }
+
+    15% {
+        color: lightgreen;
+    }
+
+    25% {
+        color: lightgreen;
+    }
+
+    35% {
+        color: white;
+    }
+
+    45% {
+        color: white;
+    }
+
+    55% {
+        color: #D60025;
+    }
+
+    65% {
+        color: #D60025;
+    }
+
+    75% {
+        color: lightgreen;
+    }
+
+    85% {
+        color: lightgreen;
+    }
+
+    95% {
+        color: #D60025;
+    }
+
+    100% {
+        color: #D60025;
+    }
 
 }
-.conteudo img{
+
+.conteudo img {
     width: 250px;
     height: 250px;
     position: absolute;
-    top:19rem;
-    margin-left:24rem;
-    border-radius:50%;
-    border:1px solid rgb(81, 80, 80);
+    top: 19rem;
+    margin-left: 24rem;
+    border-radius: 50%;
+    border: 1px solid rgb(81, 80, 80);
 }
-.conteudo p{
-    position:absolute;
-    top:25rem;
+
+.conteudo p {
+    position: absolute;
+    top: 25rem;
     font-size: 22px;
-    margin-left:43rem;
-    color:rgb(230, 225, 225);
+    margin-left: 43rem;
+    color: rgb(230, 225, 225);
     text-shadow: black 2px 2px 3px;
-    background-color:rgba(192, 223, 193,0.3);
-    border-radius:10px 10px;
+    background-color: rgba(192, 223, 193, 0.3);
+    border-radius: 10px 10px;
     padding: 15px;
 }
-.barra{
-    filter:blur(0.6px);
-    margin:3px 0px;
-    display:flex;
+
+.barra {
+    filter: blur(0.6px);
+    margin: 3px 0px;
+    display: flex;
     justify-content: space-around;
-    align-items:center;
-    font-family:arial;
-    background:#427A3B;
-    height:8vh;
+    align-items: center;
+    font-family: arial;
+    background: #427A3B;
+    height: 8vh;
 }
 
-.nav-name{
-    text-align:center;
-    color:#fff;
-    font-size:40px;
+.nav-name {
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
     text-shadow: 2px 3px 12px;
-    animation:pisca_pisca 1.5s infinite;
+    animation: pisca_pisca 1.5s infinite;
 }
-#videoflu2{
-    filter:blur(0.35rem);
-    background:#C7C7C7;
-    height:100%;
+
+#videoflu2 {
+    filter: blur(0.35rem);
+    background: #C7C7C7;
+    height: 100%;
     width: 100%;
-    margin:1px; 
-    position:relative;
+    margin: 1px;
+    position: relative;
 
 }
-.bloco-notas{
-    max-width:33%;
+
+.bloco-notas {
+    max-width: 33%;
     position: absolute;
     margin: 25px 0px 0px 20px;
-    top:80rem;
+    top: 80rem;
 
 }
 
-.conteudo2 h2{
-    font-family:'Send Flowers';
+.conteudo2 h2 {
+    font-family: 'Send Flowers';
     position: absolute;
-    color:#427A3B;
-    top:89rem;
+    color: #427A3B;
+    top: 89rem;
     margin-left: 4.8rem;
     font-size: 35px;
 }
-.conteudo2 h3{
-    font-family:'Send Flowers';
+
+.conteudo2 h3 {
+    font-family: 'Send Flowers';
     position: absolute;
-    color:#427A3B;
-    top:93rem;
+    color: #427A3B;
+    top: 93rem;
     margin-left: 4.8rem;
     font-size: 35px;
 }
+
 .conteudo2 p {
-    font-family:arial;
+    font-family: arial;
     position: absolute;
-    color:#427A3B;
-    top:114rem;
+    color: #427A3B;
+    top: 114rem;
     margin-left: 4.8rem;
     font-size: 35px;
 }
-.fluzao div{
-    display:grid;
-    grid-template-columns: 1fr 1fr;   
+
+.fluzao div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 
 }
-.escudo{
-    max-width:49%;
+
+.escudo {
+    max-width: 49%;
     margin-left: 55rem;
-    position:absolute;
-    top:80rem;
+    position: absolute;
+    top: 80rem;
     padding: 0px;
-    
 }
 
-.fundo img{
+.fundo img {
     max-width: 100%;
     display: block;
 }
-#galeria{
+
+#galeria {
     max-width: 800px;
     margin: 0 auto;
 }
-#img-principal{
-    max-width:500px;
+
+#img-principal {
+    max-width: 500px;
     margin: 0 auto;
 }
+
 #galeria ul {
     padding: 0px;
-    margin:0px;
+    margin: 0px;
     list-style: none;
-    display:grid;
-    grid-template-columns: repeat(6,1fr);
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
     gap: 9px;
     margin-top: 10px;
-   
 }
 
 #galeria ul li :hover {
@@ -209,7 +264,7 @@ a:hover{
     box-shadow: 0px 0px 10px 0px #000;
 }
 
-.fundo{
+.fundo {
     margin-top: 2px;
-    background:#427A3B;
+    background: #427A3B;
 }
